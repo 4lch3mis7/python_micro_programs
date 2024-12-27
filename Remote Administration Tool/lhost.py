@@ -60,7 +60,7 @@ def list_cwd():
     
 def exit():
     conn.send(command.encode())
-    exit()
+    os.exit(0)
     
 def custom_dir():
 
